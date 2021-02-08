@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+<link rel="stylesheet" type="text/css" href="SForm.css">
+<div id="outside">
+<form id="survey-form" action="/my-handling-form-page" method="post">
+  <h1 id="title">LACK OF SLEEP</h1>
+  
+  <fieldset>
+    <legend>Personal Details</legend>
+    <div>
+      <label id="name-label" for="name">Name:</label>
+      <input type="text" required id="name" name="user_name" placeholder="Enter name here">   </div>
+    <div>
+      <label for="address-label">Address:</label>
+      <input type="Address" id="address" name="Address" placeholder="Enter address here">   </div>
+    <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   </div>
+    <div>
+      <label id="number-label" for="phone">Phone Number:</label>
+      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9">  </div>
+
+    <div>
+      <label for="Gender">Gender</label>
+      <p>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+      </p>
+    </div>
+    <label for="date-label">Date of Birthday:</label>
+    <input type="date" name="bday">
+  
+  </fieldset>
+
+  <fieldset>
+    <label for="Gender">Please check the following events/activities that you do that to your lack of sleep.</label>
+    <p>
+      <input type="checkbox" name="readingbooks" value="readingbooks"> Reading Books<br>
+      <input type="checkbox" name="age" value="Car"> Playing Games<br>
+      <input type="checkbox" name="car" value="car"> Watching Movies<br>
+      <input type="checkbox" name="work" value="work"> Work Related<br>
+      <input type="checkbox" name="rich" value="rich"> Family Errands<br>
+      <input type="checkbox" name="loc" value="loc"> Social Media(Facebook, Whatsapp) etc.<br>
+    </p>
+  </fieldset>
+  
+  
+  <fieldset>
+    <div>
+
+      <label for="politics">Education Level Completed:</label>
+      <select id="dropdown2">
+  <option value="University">University</option>
+  <option value="College">College</option>
+  <option value="Secondary">High School</option>  
+  <option value="None">None</option>
+  </select>
+    </div>
+  </fieldset>
+
+<div>
+      <label for="Time">At what time do you usually go to bed to sleep? Please check one.</label>
+      <p>
+        <input type="radio" name="time" value="time">7-8pm<br>
+        <input type="radio" name="time" value="time">8-9pm<br>
+        <input type="radio" name="time" value="time">9-10pm<br>
+        <input type="radio" name="time" value="time">10-11pm<br>
+        <input type="radio" name="time" value="time">11-12am<br>
+        <input type="radio" name="time" value="time">12-1am<br>
+        <input type="radio" name="time" value="time">Later than 1am
+      </p>
+    </div>
+
+  <fieldset>
+    <legend>Essay Section</legend>
+    <div>
+      <label for="msg"></label>
+      <p> How many hours of sleep to you get in on a regular night? Please specify</p>
+      <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>   
+
+      
+  <div id="submitbutton">
+    <button type="submit" id="submit">SUBMIT</button>   </div>
+
+</form>
+  </div>
+</head>
+<body>
+
+</body>
+</html>

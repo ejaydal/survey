@@ -1,0 +1,83 @@
+body {
+  font-family: times new roman;
+  font-size: 1.2em;
+  background:url(peach.jpg) no-repeat;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#outside {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+form {
+  margin: 0 auto;
+  width: 70%;
+  padding: 1em;
+  border: 1.5px solid;
+  border-radius: 2em;
+  box-shadow: 5px 10px 18px #FFE5B4;
+}
+
+#survey-form {
+  background-color: #FFE5B4;
+}
+
+fieldset { 
+  border:1px solid lightgray;
+  margin: 10px;
+ }
+
+legend {
+  font-weight: 700;
+}
+
+#number {
+  width: 150px;
+}
+
+
+div + div {
+  margin-top: 1em;
+  }
+
+input, textarea {
+  width: 200px;
+  border: 1px solid;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin: .5em;
+  font-size: 1em;
+  text-transform: capitalize;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  
+}
+
+#submitbutton {
+  display: flex; 
+  justify-content: center;
+}
+
